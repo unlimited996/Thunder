@@ -30,7 +30,7 @@ public abstract class FlyingObject {
     }
     public  void step() {
         y+=speed;
-    }
+    };
     public abstract BufferedImage getImage();
     //对象状态判断
     public boolean isLife() {
